@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
+	// 재 업로드
 	//로그인 되어있는 상태인지 확인
 	String loginId = (String)session.getAttribute("loginId"); // 오브젝트
 	if(loginId != null){
